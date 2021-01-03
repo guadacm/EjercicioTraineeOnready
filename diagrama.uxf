@@ -1,0 +1,42 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>130</x><y>400</y><w>390</w><h>120</h></coordinates><panel_attributes>Auto
+--
+-puertas: int
+--
++Auto(marca: String, modelo: String, puertas:int, precio:double): void
++getPuertas():int
++setPuertas(puertas:int): void
++toString(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>70</y><w>350</w><h>210</h></coordinates><panel_attributes>/Vehiculo/
+--
+-marca: String
+-modelo: String
+-precio: double
+--
+/+Vehiculo(marca: String, modelo: String, precio: double):void/
+/+getMarca(): String/
+/+setMarca(marca: String): void/
+/+getModelo(): String/
+/+setModelo(modelo: String): void/
+/+getPrecio(): double/
+/+setPrecio(precio: double): void/
+/+mostrarMArcaModelo(): String/</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLInterface</id><coordinates><x>856</x><y>60</y><w>120</w><h>100</h></coordinates><panel_attributes>Interface
+Comparable
+--
++compareTo():int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>584</x><y>400</y><w>390</w><h>120</h></coordinates><panel_attributes>Moto
+--
+-cilindrada: int
+--
++Moto(marca: String, modelo: String, cilindrada:int, precio:double): void
++getCilindrada():int
++setCilindrada(cilindrada:int): void
++toString(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>270</y><w>260</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>240;10;240;80;40;80;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>270</y><w>260</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80;210;80;240;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>70</y><w>220</w><h>170</h></coordinates><panel_attributes>EjercicioTraineeOnready
+--
+_+lista: LinkedLiist_
+--
+_+main(args: Strinf[]):void_
++cargarLista(): void
++mostrarLista(): void
++masCaro(): Vehiculo
++masBarato(): Vehiculo
++contieneY(): Vehiculo
++mostrarListaOrdenada(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>70</y><w>190</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>70</y><w>190</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+m1=1..n</panel_attributes><additional_attributes>170;10;10;10</additional_attributes></element></diagram>
